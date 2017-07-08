@@ -52,3 +52,19 @@ body {
 /* #### NAV BAR STYLES #### 
  * END
  * */
+
+/* #### HOME STYLES #### 
+ * START
+ * */
+.home_slides {
+    margin-top: 10em;
+}
+
+.home_slide {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+/* #### HOME STYLES #### 
+ * END
+ * */
+
