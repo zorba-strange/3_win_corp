@@ -1,7 +1,7 @@
 $(document).ready(function(){
     console.log('hello world');
     $('.home_slides').slick({
-        // autoplay: true,
+        autoplay: true,
         dots: true,
         speed: 3000,
         infinite: true,

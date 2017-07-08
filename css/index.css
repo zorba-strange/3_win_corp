@@ -30,6 +30,15 @@
     text-align: left;
 }
 
+#index_tab {
+    background: black;
+}
+
+#index_link {
+    background: black;
+    color: #146CCE;
+}
+
     
 /* #### HOME STYLES #### 
  * END
