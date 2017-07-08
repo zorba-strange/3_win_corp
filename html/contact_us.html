@@ -38,7 +38,7 @@
               type="text/css"
               rel="stylesheet"/>
         <link
-              href="../css/index.css" 
+              href="../css/contact_us.css" 
               type="text/css"
               rel="stylesheet"/>
 
@@ -74,8 +74,63 @@
 
     </head>
   <body>
-      <div>
-          CCELL
-      </div>
+        <!-- ## NAVBAR ## -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav custom_nav">
+                    <li id="ccell_tab" class="nav_links">
+                        <a id="ccell_link" href="./ccell.html">CCELL&#8482;</a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="./products.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav_logo">
+                        <a class="active" href="./index.html">
+                            <img alt="brand" src="../photos/logo.png">
+                        </a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="./about.html">ABOUT</a>
+                    </li>
+                    <li id="contact_tab" class="nav_links">
+                        <a id="contact_link" href="./contact_us.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contact_page_wrapper">
+            <form>
+                <div class="form_wrapper">
+                    <div class="title_wrapper">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        Contact us:
+                    </div>
+                    <div class="name_email_wrapper">
+                        <input class="name_email" type="name" placeholder="Name"> 
+                        <input class="name_email" type="email" placeholder="Email">
+                    </div>
+                    <input type="website" placeholder="Website">
+                    <textarea id="message" type="message" placeholder="Type your message here"></textarea>
+
+                </div>
+            </form>
+            <div class="contact_info_wrapper">
+                <h3>
+                    To find more about our services or to help us with your work
+                    and corporate identity, please fill in the form and click on
+                    submit. Alternatively, please email us at
+                    info@websitename.com or give us a call.
+                </h3>
+                <h3>
+                    Tel: 123 456 7890
+                </h3>
+                <h3>
+                    Email: info@websitename.com
+                </h3>
+                <h3>
+                    Thank You!
+                </h3>
+            </div>
+        </div>
   </body>
 </html>

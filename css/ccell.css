@@ -7,21 +7,6 @@
     align-items: center;
 }
 
-.ccell_text_wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.ccell_title {
-    margin: 0 auto;
-}
-
-.logo {
-    width: 241px;
-    height: 350px;
-}
-
 #ccell_tab {
     background: black;
 }
