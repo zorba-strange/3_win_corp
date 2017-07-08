@@ -59,6 +59,14 @@ input {
     width: 50%;
 }
 
+button {
+    width: 10em;
+    border-radius: 5px;
+    padding: .5em;
+    margin: 1em;
+    margin-top: .5em;
+}
+
 .contact_title {
     margin: 0 auto;
 }
