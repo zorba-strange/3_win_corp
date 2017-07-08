@@ -1,10 +1,11 @@
 .ccell_page_wrapper {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20em;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.ccell_text_wrapper {
+    width: 50%;
 }
 
 #ccell_tab {

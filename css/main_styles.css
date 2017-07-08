@@ -57,3 +57,8 @@ body {
  * END
  * */
 
+.main_content_wrapper {
+    margin: 0 auto;
+    margin-top: 12em;
+    width: 80%;
+}
