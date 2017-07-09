@@ -2,11 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: baseline;
     margin: 0 auto;
     margin-top: 8em;
-    max-width: 100%;
+    /* max-width: 100%; */
     /* border: 3px solid pink; */
-    max-height: 100%;
+    /* max-height: 100%; */
 }
 .product_wrapper {
     display: flex;
@@ -14,7 +15,7 @@
     align-items: center;
     /* border: 3px solid blue; */
     /* height: 30em; */
-    /* width: 25em; */
+    width: 25em;
     margin: .5em 2em;
     /* flex-basis: 1; */
     flex-grow: 1;
