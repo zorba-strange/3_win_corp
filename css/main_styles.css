@@ -1,8 +1,11 @@
 body {
-    background: url("../photos/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+    background: url("../photos/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0 2em;
+  max-height: '100%';
 }
 
 /* #### NAV BAR STYLES #### 
@@ -18,7 +21,6 @@ body {
 }
 
 .nav_links {
-    color: pink;
     font-size: 150%;
     width: 8em;
     font-family: serif;
@@ -36,12 +38,15 @@ body {
 }
 
 .navbar-nav>li:hover {
-    color: blue;
     background-color: black;
 }
-.navbar-default .navbar-nav>li>a:hover {
+
+.navbar-nav>li:hover a {
     color: #146CCE;
+}
+.navbar-default .navbar-nav>li>a:hover {
     background-color: black;
+    color: #146CCE;
 }
 
 .navbar-nav>li {
