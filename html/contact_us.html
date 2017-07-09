@@ -100,19 +100,21 @@
         </nav>
         <div class="main_content_wrapper">
             <div class="contact_page_wrapper">
-                <form>
+                <form action=mailto:wdmclean@gmail.com method="post"
+                enctype="text'/plain">
                     <div class="form_wrapper">
                         <div class="title_wrapper">
                             <span class="glyphicon glyphicon-envelope"></span>
                             Contact us:
                         </div>
                         <div class="name_email_wrapper">
-                            <input class="name_email" type="name" placeholder="Name"> 
-                            <input class="name_email" type="email" placeholder="Email">
+                            <input class="name_email" name="name" placeholder="Name"> 
+                            <input class="name_email" name="email" placeholder="Email">
                         </div>
-                        <input type="website" placeholder="Website">
-                        <textarea id="message" type="message" placeholder="Type your message here"></textarea>
-                        <button type="submit">Submit</button>
+                        <input type="subject" placeholder="Componany">
+                        <textarea id="message" name="body" placeholder="Type your message here"></textarea>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
 
                     </div>
                 </form>

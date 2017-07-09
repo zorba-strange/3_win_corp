@@ -21,6 +21,8 @@ body {
     color: pink;
     font-size: 150%;
     width: 8em;
+    font-family: serif;
+    font-weight: bold;
 }
 
 .nav_logo {
