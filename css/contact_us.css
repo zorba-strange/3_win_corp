@@ -4,8 +4,10 @@
     /* align-items: stretch; */
     background: black;
     padding: 5em 1em;
-    max-height: 100%;
+    max-height: 90%;
     /* margin-top: -2em; */
+    width: 80%;
+    margin: 0 auto 3em auto;
 }
 
 .contact_info_wrapper {
