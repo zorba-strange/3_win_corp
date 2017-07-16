@@ -4,6 +4,7 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    margin-top: 20em;
 }
 
 .ccell_text_wrapper {
@@ -13,6 +14,28 @@
 #ccell {
     background: black;
 }
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 200%;
+    margin-bottom: .5em;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+    margin-top: 0;
+    font-size: 150%;
+    line-height: 125%;
+}
+
+
+.text_wrapper {
+    padding: 0px;
+    margin: 1.5em;
+}
+
 
 #ccell_link {
     background: black;
