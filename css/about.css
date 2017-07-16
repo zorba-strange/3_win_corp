@@ -14,12 +14,18 @@
 
 .about_title {
     /* margin: 0 auto; */
+    font-family: 'Krona One', sans-serif;
 }
+
+.body_copy {
+    font-family: 'Quicksand', sans-serif;
+
 
 .logo {
     width: 500px;
     height: 183px;
 }
+
 
 #about {
     background: black;
@@ -27,7 +33,7 @@
 
 #about_link {
     background: black;
-    color: #146CCE;
+    color: rgb(58, 156, 234);
 }
 
 

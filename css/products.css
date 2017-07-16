@@ -9,6 +9,7 @@
     /* border: 3px solid pink; */
     height: 100%;
 }
+
 .product_wrapper {
     display: flex;
     flex-direction: column;
@@ -37,21 +38,38 @@ img {
     /* max-width: 50%; */
 }
 
+.nav>li>a>img {
+    padding: 0px;
+}
+
 h1 {
+    font-family: 'Orbitron', sans-serif;
     font-size: 200%;
     margin-bottom: 2px;
 }
 
 h3 {
+    font-family: 'Questrial', sans-serif;
     margin-top: 0;
     font-size: 150%;
+}
+
+.home_text {
+    padding: 0px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.text_wrapper {
+    padding: 0px;
+    margin: 1.5em;
 }
 
 #products {
     background: black;
 }
 
+
 #products_link {
     background: black;
-    color: #146CCE;
+    color: rgb(58, 156, 234);
 }

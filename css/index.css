@@ -23,10 +23,17 @@
 
 .home_text_wrapper {
     margin-left: 8em;
+    text-align: left;
 }
 
 .home_text {
-    text-align: left;
+    /* text-align: left; */
+    /* display: inline-block; */
+    padding: 0;
+}
+ul {
+    padding-left: 0px;
+    margin-left: 1.5em;
 }
 
 #index {
@@ -35,7 +42,7 @@
 
 #index_link {
     background: black;
-    color: #146CCE;
+    color: rgb(58, 156, 234);
 }
 
     

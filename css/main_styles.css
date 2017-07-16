@@ -24,10 +24,14 @@ body {
 }
 
 .nav_links {
-    font-size: 150%;
-    width: 8em;
-    font-family: serif;
+    font-size: 130%;
+    width: 10em;
+    font-family: 'Krona One', sans-serif;
     font-weight: bold;
+}
+
+.nav>li>a {
+    padding: 10px 10px;
 }
 
 .nav_logo {
@@ -45,11 +49,12 @@ body {
 }
 
 .navbar-nav>li:hover a {
-    color: #146CCE;
+    color: rgb(58, 156, 234);
 }
 .navbar-default .navbar-nav>li>a:hover {
     background-color: black;
-    color: #146CCE;
+    /* color: #146CCE; */
+    color: rgb(58, 156, 234);
 }
 
 .navbar-nav>li {
