@@ -1,14 +1,14 @@
 /* #### HOME STYLES #### 
  * START
  * */
-.home_slides {
-    /* margin: 0 auto; */
-    /* width: 100%; */
-}
 
 .home_slide {
     margin: 0 auto;
     /* text-align: center; */
+}
+
+img {
+    max-height: 20em;
 }
 
 .home_photo_text_wrapper {
@@ -22,7 +22,7 @@
 }
 
 .home_text_wrapper {
-    margin-left: 8em;
+    margin-left: 6em;
     text-align: left;
 }
 
@@ -49,14 +49,22 @@ ul {
     margin-left: 1em;
 }
 
-#index {
-    background: black;
+.index_home {
+    background: url('../new_images/3Win-Blue.png') no-repeat; 
+    background-color: black;
+    background-size: 90% 90%;
+    background-position: center;
+    width: 12em;
+    /* border: 1em solid black; */
+    /* height: 100%; */
 }
 
-#index_link {
-    background: black;
-    color: rgb(58, 156, 234);
-}
+
+/* #index_link { */
+/*     background: black; */
+/*     background-size: cover; */
+/*     color: rgb(58, 156, 234); */
+/* } */
 
     
 /* #### HOME STYLES #### 

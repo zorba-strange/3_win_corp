@@ -10,3 +10,9 @@ $(document).ready(function(){
     });
 });
 
+const black_logo = document.getElementById('logo_image_black');
+black_logo.addEventListner('mouseover', function() {
+    console.log('over');
+    this.src = '../new_images/3Win-Blue.png';
+});
+
